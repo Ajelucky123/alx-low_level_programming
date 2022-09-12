@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stddio.h>
+#include <stdio.h>
 
 /**
  * main - Print a random number and state whether it is positive, negative, or zero.
