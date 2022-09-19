@@ -28,4 +28,4 @@ void reset_to_98(int *n)
 	printf("Value of 'm' after the call: %d\n", m);
 	return (0);
 }
-
+}
