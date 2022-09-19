@@ -1,16 +1,16 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
- * reset_to_98 - set the integer to 98
- * @n: a pointer the integer we want to set 98
+ * reset_to_98 - resets value of pointer to 98
+ * @n: pointer to reset to 98
  *
- * Return: Nothing.
+ * Return: void
  */
 void reset_to_98(int *n)
 {
-	printf("Value of 'n': %d\n", n);
 	*n = 98;
 }
+<<<<<<< HEAD
 /**
  * main - how to change the value of the variable from outside the function
  * it is declared in, using a pointer.
@@ -29,3 +29,5 @@ void reset_to_98(int *n)
 	return (0);
 }
 }
+=======
+>>>>>>> 5c02575e8e1eae02cc6f9c3946fcd22aa195ec87
